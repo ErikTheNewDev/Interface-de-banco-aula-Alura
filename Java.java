@@ -119,8 +119,10 @@ public class Java {
                 int escolha = digite.nextInt();
                 if (escolha == 1) continue;
                 if (escolha == 2) return;
+            
 
-
+            //*************** opção 4 *********************
+                
             } else if (opcao == 4) {
                 // Opção 4: sair do banco
                 System.out.println("Finalizando operação, volte sempre!");
@@ -129,4 +131,5 @@ public class Java {
             }
         }
     }
+
 }
